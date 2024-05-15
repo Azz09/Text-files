@@ -105,7 +105,7 @@ int main() {
     outputStudents(students, count);
     
     saveStudents(students, count);
-    
+    printf("====Read from student.txt====\n");   
     struct student loadedStudents[count];
     loadStudents(loadedStudents, count);
     
